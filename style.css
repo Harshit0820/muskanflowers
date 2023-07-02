@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+    color: #25280b;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.navbar {
+    padding: 0 0 1rem;
+    text-align: center;
+}
+
+.title {
+    background: #e2c4e9;
+    padding-bottom: 4.5rem;
+}
+
+.logo {
+    width: 7rem;
+    border-radius: 50%;
+    margin-right: 1.2rem;
+}
+
+.nav-link {
+    color: #1c4562;
+}
+
+.nav-link:hover {
+    color: #726a6d;
+}
+
+.contact-button {
+    background-color: #be2385;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.direction-button {
+    background-color: #236c66;
+}
+
+.contact-button:hover {
+    background-color: #774168;
+}
+
+.direction-button:hover {
+    background-color: #5e6f6e;
+}
+
+.direction-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #72a85d;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.3rem;
+
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 2;
+    margin-bottom: 1.2rem;
+}
+
+.main {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.work {
+    background-color: #c4e6f3;
+}
+
+.flowers {
+    background-color: #f1f3c8;
+}
+
+.gallery {
+    background-color: #eee89d;
+}
+
+.contact {
+    background-color: #fde8dd;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.map-view {
+    width: 1200px;
+    height: 700px;
+}
+
+.work h2, .flowers h2, .contact h2 {
+    text-align: center;
+    color: #72a85d;
+    font-size: 2.2rem;
+    margin-bottom: 3.5rem;
+    font-weight: 500;
+}
+
+.gallery h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3.5rem;
+    color: #70587e;
+    font-weight: 500;
+}
+
+.bouquet-img, .car-img, .jaimala-img, .hall-img {
+    text-align: center;
+}
+
+.bouquet {
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 5rem;
+}
+
+.bouquet-text, .car-text, .jaimala-text, .hall-text {
+    display: flex;
+    align-items: center;
+}
+
+.bouquet-text p, .car-text p, .jaimala-text p, .hall-text p {
+    font-size: 1.1rem;
+}
+
+
+.car, .jaimala, .hall {
+    width: 70%;
+    border-radius: 50px;
+    margin-left: 5rem;
+}
+
+.flower-text {
+    display: flex;
+    justify-content: center;
+}
+
+.flowers p {
+    text-align: center;
+    font-size: 1.125;
+    width: 45rem;
+}
+
+.gallery p {
+    font-size: 1.125;
+    margin-bottom: 3rem;
+    color: #25280b;
+    /* width: 45rem; */
+}
+
+.flower-gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-bottom: 30px;
+}
+
+.flower img {
+    max-width: 17rem;
+    min-height: 18rem;
+    border-radius: 50px;
+}
+
+.bouquet-gap {
+    column-gap: 2.5rem;
+    row-gap: 2rem;
+}
+
+.bouquets-img img {
+    max-width: 20rem;
+    min-height: 27rem;
+    border-radius: 40px;
+}
+
+.flower {
+    position: relative;
+}
+
+.flower div {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    background: black;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    padding: 2% 3%;
+    transition: visibility 0s ease, opacity 0.5s ease-in-out;
+    filter: brightness(100%);
+}
+
+.flower:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.flower:hover div {
+    text-align: center;
+    width: 80%;
+    visibility: visible;
+    opacity: 1;
+    font-size: 1.125rem;
+}
+
+#Bouquets {
+    background-color: #b1ffd4;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.whatsapp {
+    width: 2rem;
+}
+
+.contact-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-number li {
+    font-size: 1.05rem;
+}
+
+.whatsapp-contact {
+    margin-left: 2.5rem;
+}
+
+.contact-call {
+    background-color: #be2385;
+    border: 0;
+}
+
+.contact-call:hover {
+    background-color: #774168;
+}
+
+.contact-call a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.direction-where {
+    background-color: #236c66;
+    border: 0;
+}
+
+.direction-where:hover {
+    background-color: #5e6f6e;
+}
+
+.direction-where a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.direction-para {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.business-list li {
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.business-list li span {
+    font-weight: 400;
+    margin-left: auto;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    background: linear-gradient(to right, #e1ef9c, #81d6e7);
+}
+
+.card2 {
+    background: linear-gradient(to right, #e4b8d4, #d0e4ab);
+}
+
+.card3 {
+    background: linear-gradient(to right, #b0e3ff, #eca5d3);
+}
+
+.contact-card {
+    width: 380px;
+}
+
+.footer {
+    background-color: #b8e2a3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+.btn-top {
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 50%;
+    font-family: Arial;
+    color: #000;
+    font-size: 15px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-top img {
+    width: 50px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .fs-4 {
+        font-size: 1.37rem !important;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .map-view {
+        width: 900px;
+        height: 500px;
+    }
+    
+
+    .bouquet-text p, .car-text p, .jaimala-text p, .hall-text p {
+        font-size: 1rem;
+    }
+    .work h2,.flowers h2, .gallery h2, .contact h2 {
+        font-size: 2.2rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        text-align: center;
+    }
+    .main {
+        margin-top: 1rem;
+    }
+    .contact-button {
+        margin-bottom: 1rem;
+        width: 50%;
+        margin-right: 0;
+    }
+    .direction-button {
+        width: 50%;
+    }
+    .bouquet {
+        width: 60%;
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+    .car, .jaimala, .hall {
+        width: 70%;
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+    .work {
+        text-align: center;
+    }
+
+    .work h2, .flowers h2, .gallery h2, .contact h2 {
+        font-size: 2rem !important;
+    }
+    .map-view {
+        width: 700px;
+        height: 400px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .flower-gallery {
+        row-gap: 1.5rem;
+    }
+    .flower img {
+        /* max-width: 15rem; */
+        min-height: 16rem;
+    }
+    .bouquets-img img {
+        max-width: 20rem;
+    }
+    .carousel-item img {
+        max-height: 500px;
+    }
+    .map-view {
+        width: 450px;
+        height: 300px;
+    }
+    .btn-top {
+        bottom: 10px;
+        right: 10px;
+    }
+    .btn-top img {
+        width: 45px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bouquet, .car,.jaimala, .hall {
+        width: 80%;
+    }
+    .bouquets-img img {
+        max-width: 15rem;
+    }
+    .carousel-item img {
+        max-height: 400px;
+    }
+    .map-view {
+        width: 400px;
+        height: 250px;
+    }
+    .btn-top {
+        bottom: 5px;
+        right: 5px;
+    }
+    .btn-top img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 440px) {
+    .fs-4 {
+        font-size: 1.15rem !important;
+    }
+    .logo {
+        width: 5rem;
+        margin-right: 0.6rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .flowers p, .gallery p {
+        font-size: 1rem;
+    }
+    .work h2, .flowers h2, .gallery h2, .contact h2 {
+        font-size: 1.7rem !important;
+    }
+    .navbar-toggler {
+        display: flex;
+        width: 2em;
+    }
+    .navbar-toggler-icon {
+        justify-content: center;
+        width: 2em;
+    }
+    .carousel-item img {
+        max-height: 350px;
+    }
+    .map-view {
+        width: 300px;
+        height: 250px;
+    }
+    .nav-item a {
+        font-size: 1.2rem !important;
+    }
+    .btn-top {
+        bottom: 0px;
+        right: 0px;
+    }
+    .btn-top img {
+        width: 40px;
+    }
+}
+
+
+
