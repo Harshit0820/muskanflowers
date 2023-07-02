@@ -360,6 +360,7 @@ p {
     background: transparent;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    z-index: 2;
 }
 
 .btn-top img {
